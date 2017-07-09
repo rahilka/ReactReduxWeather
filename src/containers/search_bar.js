@@ -47,4 +47,4 @@ function mapDispatchToProps(dispatch) {
 	return bindActionCreators({ fetchWeather }, dispatch);
 }
 
-export default connect(null, mapDispatchToProps)(SearchBar);
+export default connect(null, mapDispatchToProps)(SearchBar); //'null' meaning: we don't need any state here
